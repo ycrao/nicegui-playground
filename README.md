@@ -1,7 +1,7 @@
 nicegui-playground
 ------------------
 
->   NiceGUI demo: A Simple CMS (Content Management System) built with SQLite database support.
+>   [NiceGUI](https://github.com/zauberzeug/nicegui) demo: A Simple CMS (Content Management System) built with SQLite database support.
 
 ### CMS Features
 
