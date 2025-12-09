@@ -8,7 +8,7 @@ examples
 
 ```bash
 # need ffmpeg 
-# install On Ubuntu
+# install on Ubuntu
 sudo apt install ffmpeg
 cd ffmpeg_extract_images
 uv run main.py
@@ -18,6 +18,7 @@ uv run main.py
 
 ```bash
 # need cairo deps
+# install on Ubuntu
 sudo apt update && sudo apt install pkg-config cmake libcairo2-dev
 uv add html-sanitizer pycairo
 cd generate_pdf
@@ -49,6 +50,7 @@ uv run main.py
 ### simpy
 
 ```bash
+# need simpy
 uv add simpy
 cd simpy
 uv run main.py
@@ -57,6 +59,7 @@ uv run main.py
 ### sqlite_database
 
 ```bash
+# need tortoise-orm
 uv add tortoise-orm
 cd sqlite_database
 uv run main.py
@@ -65,6 +68,7 @@ uv run main.py
 ### websockets
 
 ```bash
+# need websockets (already installed)
 uv add websockets
 cd websockets
 uv run main.py
@@ -73,6 +77,7 @@ uv run main.py
 ### zeromq
 
 ```bash
+# need pyzmq matplotlib
 uv add pyzmq matplotlib
 cd zeromq
 # in terminal #1
